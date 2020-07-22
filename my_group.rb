@@ -20,3 +20,23 @@ puts "#{person_3[:name]} is an #{person_3[:age]} year old #{person_3[:gender]}"
 
 
 
+"<Jenny> <Malmefeldt>"
+
+hash = Hash.new(0) 
+
+movie_1 = {
+    name: "Fast and Furious",
+    year: 2001
+}
+
+puts movie "#{movie_1[:name]} #{movie_1[:year]}"
+
+a = [1,2,3,4,5,6,7,8]
+
+puts (a[2])
+
+b = {"Name" => "Jenny Malmefeldt", "Age" => 24}
+
+puts (b["age"])
+
+
