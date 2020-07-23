@@ -28,8 +28,29 @@ puts arr [1][0]
 
 
 
-
-
 arr = [["test", "hello", "world"], ["example", "mem"]]
 
 puts arr [0][2]
+
+
+phrase = "Welcome to America!"
+
+puts phrase [6]
+puts phrase [11]
+puts phrase.length()
+
+
+a = string [6] -> #e
+b = string[11] -> #A
+c = string[19] -> #It not showing anything
+
+
+#To change name on margaret to jody
+names = ["bob", "joe", "susan", "margaret"]
+names = ["margaret"] = "jody"
+
+names = ["bob", "joe", "susan", "margaret"]
+names[3] = "jody"
+
+
+
