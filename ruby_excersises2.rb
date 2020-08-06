@@ -1,4 +1,6 @@
 
+# Family Kata
+
 family = {  
 
     uncles: ["bob", "joe", "steve"],
@@ -30,6 +32,8 @@ person =
 person[:name]
 
 
+# Hi There kata
+
 x = "hi there"
     my_hash = {x: "some value"}
     my_hash2 = {x => "some value"}
@@ -42,10 +46,10 @@ x = "hi there"
     (!true  ||  (!(100  /  5)  ==  20)  ||  ((328  /  4)  ==  82))  ||  false
 
 
-
 # The first one did I get an error saying expecting: do/or
 
     '4' == 4 ? puts ("TRUE") : puts("FALSE")
+
 
 # Here I just got: nil
 
@@ -82,3 +86,38 @@ x = "hi there"
     end
     
     equal_to_four(5)
+
+
+#Methods
+
+    def greeting(name)
+        "Hello, " + name + ". How are you doing?"
+    end
+    
+    puts greeting("Bob")
+
+
+    x =  2  # => 2  
+    puts x =  2  # => nil  
+    p name =  "Joe"  # => "Joe"  
+    four =  "four"  # => "four"  
+    print something =  "nothing"  # => nil
+
+
+# Multiply kata
+
+    def  multiply(number1, number2) 
+        number1 * number2  
+      end  
+      
+      puts multiply(4,  2)
+      
+
+# Scream kata
+
+      def  scream(words)
+        words = words + "!!!!"
+        puts  "#{words}"
+      end
+      
+      scream("Yippeee")
