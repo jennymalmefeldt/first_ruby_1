@@ -92,6 +92,8 @@
 
 
 
+
+
 # How do we return the word exempel from the array:
 
     arr = [["test","hello","world"],["example","mem"]]
@@ -100,6 +102,38 @@
     
     We enter number [1] becuse we want to get in to the second array and in the second array we want the first word "example" and then we enter [0]
     In Ruby we start counting from 0
+
+
+names = ['bob', 'joe', 'susan', 'margaret']
+names['margaret'] = 'jody'
+
+names[3]  =  'jody'
+
     
 
+# Family kata
 
+
+
+
+# Bob kata
+
+    Here we asking for the persons name, and we get the out put: Bob
+
+    person =
+        {name: 'Bob', occupation: 'web Developer', hobbies: 'painting'} 
+
+    person[:name]
+
+
+# Hi there kata
+
+    The first hash used X as the key, the secund used the X as a sting value
+
+    x = "hi there"
+
+    my_hash = {x: "some value"}
+    my_hash2 = {x => "some value"}
+
+
+# 
